@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  font-size: 31px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.icon {
+  font-size: 53px;
+}
+
+.card-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+  .cards {
+    grid-template-columns: repeat(2, auto);
+  }
+
+}
+
+@media screen and (max-width:568px) {
+   .cards {
+     grid-template-columns: repeat(1, auto);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
